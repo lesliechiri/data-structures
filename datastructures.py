@@ -58,8 +58,8 @@ def data():
     students = [student1,student2,student3,student4]
 
     for student in students:
-        sms = "hello {},your balance is{}".format(student[name],student[balance])
-        return sms             
+        sms = "hello {},your balance is{}".format(student["name"],student["balance"])
+        print(sms)              
 
 
 
