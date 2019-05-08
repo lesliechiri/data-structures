@@ -43,9 +43,9 @@ def my_modulus():
     
     for x in range(10,20):
         if x%3==0:
-            a[x]=[0]
+            a[x]=x%3
         else:
-            a[x]=[x%3]   
+            a[x]=x%3  
         
     return a 
 
